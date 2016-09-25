@@ -81,6 +81,7 @@ function wordReverse(aSentence) {
 wordReverse("Hello what is your name")
 
 
+
 //Excercise 6
 //**Referenced from: http://stackoverflow.com/questions/6521245/finding-longest-string-in-array/12548884#12548884 but dont understand this fully - please explain on Monday!
 var students = ["Renaa","Ben","Russ","Chris"];
@@ -103,13 +104,24 @@ for(var i=0; i < anArray.length; i++){
 console.log(longest(students));
 
 
-function repMaster (input,function){
-	function 
+
+//Final Round
+
+
+
+var inputFunction = '';
+
+function repMaster (aInputFunction, wordReverse ){
+	inputFunction = aInputFunction + ' proves that I am the rep MASTER!';
+	console.log(inputFunction);
 
 }
 
+repMaster("test", 123)
 
-//Final Round
+
+
+///
 
 
 
